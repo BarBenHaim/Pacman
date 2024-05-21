@@ -1,0 +1,43 @@
+body {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+}
+
+.board-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    font-size: 1.5em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.pacman,
+.ghost {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
